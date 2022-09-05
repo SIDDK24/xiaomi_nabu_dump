@@ -1,0 +1,18 @@
+## qssi-user 11 RKQ1.200826.002 V13.0.6.0.RKXINXM release-keys
+- Manufacturer: xiaomi
+- Platform: msmnile
+- Codename: nabu
+- Brand: Xiaomi
+- Flavor: qssi-user
+- Release Version: 11
+- Id: RKQ1.200826.002
+- Incremental: V13.0.6.0.RKXINXM
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Locale: en-GB
+- Screen Density: 440
+- Fingerprint: Xiaomi/nabu_in/nabu:11/RKQ1.200826.002/V13.0.6.0.RKXINXM:user/release-keys
+- OTA version: 
+- Branch: qssi-user-11-RKQ1.200826.002-V13.0.6.0.RKXINXM-release-keys
+- Repo: xiaomi_nabu_dump
