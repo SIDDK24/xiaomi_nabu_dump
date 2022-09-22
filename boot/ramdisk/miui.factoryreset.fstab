@@ -1,0 +1,7 @@
+#device         mount point      fstype        [device2] [length=]
+product                                                 /product               ext4    ro,barrier=1,discard                                 wait,logical,slotselect
+vendor                                                  /vendor                ext4    ro,barrier=1,discard                                 wait,logical,slotselect
+odm                                                     /odm                   ext4    ro,barrier=1,discard                                 wait,logical,slotselect
+system_ext                                              /system_ext            ext4    ro,barrier=1,discard                                 wait,logical,slotselect
+/dev/block/bootdevice/by-name/metadata                  /metadata              ext4    noatime,nosuid,nodev,discard                         wait,formattable,wrappedkey
+/dev/block/bootdevice/by-name/userdata                  /data                  ext4    noatime,nosuid,nodev,discard,reserve_root=32768,resgid=1065,fsync_mode=nobarrier    latemount,wait,check,formattable,fileencryption=ice,wrappedkey,keydirectory=/metadata/vold/metadata_encryption,quota,reservedsize=128M,checkpoint=fs
